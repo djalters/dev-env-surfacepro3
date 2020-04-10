@@ -20,6 +20,8 @@ Devices > Mouse & Touchpad — Switch off “Tap to Click”. (Reason: The last 
 `/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf`
 `wifi.powersave = 2`
 
+git
+
 Create ssh key
 `ssh-keygen -t rsa -b 4096 -C "walters.eye@gmail.com"`
 to run, start in background
@@ -29,6 +31,9 @@ $ eval "$(ssh-agent -s)"
 ```
 add key to agent
 `ssh-add ~/.ssh/id_rsa`
+
+add git colours for terminal, display branches etc - add to bashrc
+https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
 
 Python3
 - should already be installed with ubuntu
