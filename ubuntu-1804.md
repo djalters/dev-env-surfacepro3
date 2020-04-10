@@ -35,6 +35,8 @@ add key to agent
 add git colours for terminal, display branches etc - add to bashrc
 https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt
 
+lazygit install 
+
 Python3
 - should already be installed with ubuntu
 -install pip3-pyth
